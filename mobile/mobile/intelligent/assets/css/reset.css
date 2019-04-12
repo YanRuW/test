@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Reset Start */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px Arial, "Microsoft Yahei", sans-serif;
+}
+ul,ol {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+img {
+	border: none;
+	vertical-align: top;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+/* CSS Reset End */

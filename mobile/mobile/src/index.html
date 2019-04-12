@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <link rel="apple-touch-icon-precomposed" sizes="29x29" href="/intelligent/assets/images/29.png">
+    <link rel="apple-touch-icon-precomposed" sizes="40x40" href="/intelligent/assets/images/40.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/intelligent/assets/images/57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="58x58" href="/intelligent/assets/images/58.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/intelligent/assets/images/60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="80x80" href="/intelligent/assets/images/80.png">
+    <link rel="apple-touch-icon-precomposed" sizes="87x87" href="/intelligent/assets/images/87.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/intelligent/assets/images/114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/intelligent/assets/images/120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/intelligent/assets/images/180.png">
+    <link rel="apple-touch-icon-precomposed" sizes="1024x1024" href="/intelligent/assets/images/1024.png">
+    <title>大数据移动端展示</title>
+    <link type="text/css" rel="stylesheet" href="/intelligent/assets/css/reset.css" />
+</head>
+
+<body>
+<script type="text/javascript" language="JavaScript">
+    (function() {
+        var html = document.documentElement;
+        var designWidth = 750;
+        var fn = function() {
+            var windowWidth = html.clientWidth;
+            html.style.fontSize = windowWidth < designWidth ? html.style.fontSize = windowWidth / designWidth * 625 + "%" : "625%";
+        };
+        window.addEventListener("resize", fn, false);
+        fn();
+    })();
+</script>
+<div id="root"></div>
+<script type="text/javascript" language="JavaScript" src="/intelligent/lib/echarts/echarts.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+.align-left {
+	text-align: left;
+}
+.align-center {
+	text-align: center;
+}
+.align-right {
+	text-align: right;
+}
+.btn {
+	display: inline-block;
+	line-height: 2;
+	padding: 0 1.2em;
+	border-radius: 4px;
+	color: white;
+	text-align: center;
+	background-color: #1595F1;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #1595F1), color-stop(100%, #29BFFC));
+	background-image: -webkit-linear-gradient(left, #1595F1 0, #29BFFC 100%);
+	background-image: -moz-linear-gradient(left, #1595F1 0, #29BFFC 100%);
+	background-image: -ms-linear-gradient(left, #1595F1 0, #29BFFC 100%);
+	background-image: -o-linear-gradient(left, #1595F1 0, #29BFFC 100%);
+	background-image: linear-gradient(to right, #1595F1 0, #29BFFC 100%);
+}
+.btn-disabled {
+	background-color: #CCC;
+	background-image: none;
+}
+.container {
+	background-color: white;
+	padding: .1rem;
+}
+.cutline {
+    margin: 10px 0;
+    border-top: 1px solid #DDD;
+}
+.display-block {
+	display: block;
+}
+.display-none {
+	display: none;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.item {
+	margin-bottom: .1rem;
+}
+.overflow-auto {
+	overflow: auto;
+}
+.overflow-hidden {
+	overflow: hidden;
+}
+.wrapper {
+	position: relative;
+}
+h4 {
+	font-size: 14px;
+	line-height: 1.5;
+}
+h4::before {
+	content: ".";
+	display: inline-block;
+	width: 5px;
+	background-color: #2283E2;
+	margin-right: 10px;
+	border-radius: 4px;
+	color: #2283E2;
+}
+table {
+	width: 100%;
+}
+table tr th, table tr td {
+	text-align: center;
+}
